@@ -1,2 +1,2 @@
-# VagrantOverview
-Overview of vagrant
+# Vagrant Overview
+Some sample for provisioning VMs with Vagrant
