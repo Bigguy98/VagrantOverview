@@ -4,7 +4,7 @@ Author: bugsmaker
 Topics: vagrant
 ---
 
-### Commands
+### Vagrant useful commands
 
 Init vagrant project
 > vagrant init <box name or URL\>
