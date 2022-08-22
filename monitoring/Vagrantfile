@@ -6,15 +6,15 @@ Vagrant.configure("2") do |config|
     config.vm.box_check_update = false
 
     # Provision Master Node
-    config.vm.define "grafana.master" do |node|
+    config.vm.define "grafana" do |node|
           # Name shown in the GUI
           node.vm.provider "virtualbox" do |vb|
-              vb.name = "grafana.master"
+              vb.name = "grafana"
               vb.memory = 2048
               vb.cpus = 3
               vb.gui = true
           end
-          node.vm.hostname = "grafana.master"
+          node.vm.hostname = "grafana"
           node.vm.network :private_network, ip: IP_NW
           node.vm.network "forwarded_port", guest: 22, host: 2712
   

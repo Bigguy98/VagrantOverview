@@ -18,6 +18,12 @@ Running with provision
 SSH into VM
 > vagrant ssh
 
+Suspend VM
+> vagrant suspend 
+
+Resume VM
+> vagrant resume
+
 Shutdown VM
 > vagrant halt
 
