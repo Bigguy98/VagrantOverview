@@ -34,6 +34,9 @@ Remove the box
 > vagrant box list
 > vagrant box remove <box-name\>
 
+Fix if something went wroing
+
+> vagrant reload
 
 ### Vagrant share
 share your VM with another people on Internet
